@@ -14,7 +14,7 @@ and open the template in the editor.
         $db = new SQLite3('test1.db');
         $db->exec('CREATE TABLE foo (bar STRING)');
         $db->exec("INSERT INTO foo (bar) VALUES ('This is a test3')");
-        
+        $db->exec("INSERT INTO foo (bar) VALUES ('This is a test2')");
         // put your code here
         ?>
     </body>
